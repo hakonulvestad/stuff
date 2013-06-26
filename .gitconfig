@@ -1,0 +1,22 @@
+[user]
+	name = hakulves
+	email = hakon.ulvestad@finn.no
+[color]
+	ui = auto
+[alias]
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate --all
+	st = status
+	fdiff = diff --name-only
+	cdiff = log origin/master..HEAD
+[credential]
+	helper = cache
+[branch]
+	autosetuprebase = always
+[mergetool]
+	prompt = false
+[http]
+	sslVerify = false
+[core]
+	editor = vim
+[branch "master"]
+	rebase = true
